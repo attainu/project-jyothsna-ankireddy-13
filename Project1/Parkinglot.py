@@ -110,8 +110,8 @@ class ParkingLot:
 
 
 def sendEmail(regno, color, duration, receiver):
-    sender = 'anonymous.people.one@gmail.com'
-    password = 'slxfyyaaemsukkdv'
+    sender = 'sample.person@gmail.com'
+    password = 'afdkhgfldfdgjfk'
     message = MIMEMultipart("alternative")
     message["Subject"] = "Car Parking Checkout"
     message["From"] = 'Car Parking'
